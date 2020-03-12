@@ -5,46 +5,51 @@
     android:layout_width="match_parent"
     android:layout_height="wrap_content">
 
+
     <ImageView
         android:id="@+id/ivPoster"
         android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_height="224dp"
+        android:layout_below="@+id/tvTitle"
         android:layout_alignParentStart="true"
-        android:layout_alignParentTop="true"
-        android:layout_marginStart="0dp"
-        android:layout_marginTop="0dp"
-        android:layout_marginEnd="0dp"
-        android:layout_marginBottom="0dp"
-        tools:ignore="MissingConstraints"
-        tools:srcCompat="@tools:sample/avatars" />
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="67dp"
+        android:layout_marginTop="7dp"
+        android:layout_marginEnd="56dp"
+        android:contentDescription="Image of the poster of a movie"
+        tools:srcCompat="@tools:sample/avatars[10]" />
 
     <TextView
         android:id="@+id/tvTitle"
-        android:layout_width="237dp"
-        android:layout_height="41dp"
+        android:layout_width="360dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
         android:layout_alignParentTop="true"
         android:layout_alignParentEnd="true"
-        android:layout_centerInParent="true"
-        android:layout_marginStart="28dp"
-        android:layout_marginTop="2dp"
-        android:layout_marginEnd="26dp"
-        android:layout_toEndOf="@+id/ivPoster"
-        android:text="Sonic the Hedgehog"
-        android:textColor="#ffff"
-        android:textSize="24sp" />
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="32dp"
+        android:layout_marginEnd="35dp"
+        android:gravity="center"
+        android:textColor="@android:color/white"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        tools:text="A Star is Born" />
 
     <TextView
         android:id="@+id/tvOverview"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_alignTop="@+id/tvTitle"
-        android:layout_marginStart="5dp"
-        android:layout_marginTop="37dp"
-        android:layout_toEndOf="@+id/ivPoster"
-        android:textColor="#ffff"
-        tools:text='	"Based on the global blockbuster videogame franchise from Sega, Sonic the Hedgehog tells the story of the world’s speediest hedgehog as he embraces his new home on Earth. In this live-action adventure comedy, Sonic and his new best friend team up to defend the planet from the evil genius Dr. Robotnik and his plans for world domination."TextView' />
-
-
+        android:layout_below="@+id/ivPoster"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="79dp"
+        android:layout_marginTop="23dp"
+        android:layout_marginEnd="49dp"
+        android:layout_marginBottom="0dp"
+        android:gravity="center"
+        android:textColor="@android:color/white"
+        android:textSize="14sp"
+        tools:text="Peter Parker and his friends go on a summer trip to Europe. However, they will hardly be able to rest - Peter will have to agree to help Nick Fury uncover the mystery of creatures that cause natural disasters and destruction throughout the continent." />
 
     <LinearLayout
         android:id="@+id/linear"
@@ -65,4 +70,5 @@
             android:numStars="5"
             android:visibility="visible" />
     </LinearLayout>
+
 </RelativeLayout>
