@@ -13,18 +13,30 @@ public class Movie {
     String posterPath;
     String title;
     String overview;
+    Double voteAverage;
 
     public  Movie(JSONObject jsonObject) throws JSONException {
         backdropPath = jsonObject.getString("backdrop_path");
         posterPath = jsonObject.getString("poster_path");
         title = jsonObject.getString("title");
         overview = jsonObject.getString("overview");
+        voteAverage = jsonObject.getDouble("vote_average");
+
     }
 
-    public static List<Movie> fromJSONArray(JSONArray movieJsonArray) throws JSONException {
+   // public static List<Movie> fromJSONArray(JSONArray movieJsonArray) throws JSONException {
+   public static List<Movie> fromJSONArray(JSONArray movieJsonArray)  {
         List<Movie> movies = new ArrayList<>();
-        for (int i = 0;i < movieJsonArray.length(); i++){
-            movies.add(new Movie(movieJsonArray.getJSONObject(i)));
+          //  movies.add(new Movie(movieJsonArray.getJSONObject(i)));
+            for(int i=0;i<movieJsonArray.length();i++)
+            {
+                try
+                {
+                    movies.add(new Movie(movieJsonArray.getJSONObject(i)));
+                } catch (JSONException e)
+                {
+                    e.printStackTrace();
+                }
         }
         return movies;
     }
@@ -44,5 +56,9 @@ public class Movie {
 
     public String getOverview() {
         return overview;
+    }
+
+    public Double getVoteAverage() {
+        return voteAverage;
     }
 }
