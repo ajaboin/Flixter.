@@ -1,8 +1,8 @@
-# Flixter part 1 :  is an app that sees information about films such as: Title, overview, Poster, etc.
+**Flixter part 1 :**  is an app that sees information about films such as: Title, overview, Poster, etc.
 
-##Submit by JABOIN Alexandra Valentia
+Submit by JABOIN Alexandra Valentia
 
-#Time spent : 15 hours
+Time spent : 15 hours
 
 ---
 
