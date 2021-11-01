@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/container"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+    <ImageView
+        android:id="@+id/ivPoster"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="0dp"
+        android:layout_marginTop="0dp"
+        android:layout_marginEnd="0dp"
+        android:layout_marginBottom="0dp"
+        android:contentDescription="Image of the poster of a movie"
+        tools:srcCompat="@tools:sample/avatars" />
+
+    <TextView
+        android:id="@+id/tvTitle"
+        android:layout_width="237dp"
+        android:layout_height="41dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_centerInParent="true"
+        android:layout_marginStart="28dp"
+        android:layout_marginTop="2dp"
+        android:layout_marginEnd="26dp"
+        android:layout_toEndOf="@+id/ivPoster"
+        android:text="Sonic the Hedgehog"
+        android:textColor="#ffff"
+        android:textSize="24sp" />
+
+    <TextView
+        android:id="@+id/tvOverview"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/ivPoster"
+        android:layout_marginStart="79dp"
+        android:layout_marginTop="23dp"
+        android:text="Peter Parker and his friends go on a summer trip to Europe. However, they will hardly be able to rest - Peter will have to agree to help Nick Fury uncover the mystery of creatures that cause natural disasters and destruction throughout the continent."
+        android:textColor="@android:color/white"
+        android:textSize="14sp" />
+
+
+    <LinearLayout
+        android:id="@+id/linear"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:layout_below="@id/tvOverview"
+        android:orientation="horizontal">
+
+        <RatingBar
+            android:id="@+id/ratingBar"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBottom="@+id/linear"
+            android:layout_marginStart="92dp"
+            android:layout_marginTop="21dp"
+            android:layout_marginEnd="79dp"
+            android:isIndicator="true"
+            android:numStars="5"
+            android:visibility="visible" />
+    </LinearLayout>
+
+
+</RelativeLayout>
