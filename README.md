@@ -27,8 +27,9 @@ https://github.com/ajaboin/Flixter./blob/main/PortraitWalkthrough.mp4
 
 Landscape Walkthough
 https://github.com/ajaboin/Flixter./blob/main/LandSWalkthrough.mp4
-`TODO://` Add the URL to your animated app walkthough `https://github.com/ajaboin/Flixter./blob/main/PortraitWalkthrough.mp4` in the image tag below, `https://github.com/ajaboin/Flixter./blob/main/LandSWalkthrough.mp4  `. Make sure the gif actually renders and animates when viewing this README. (🚫 Remove this paragraph after after adding gif)
 
+
+<img src="https://github.com/ajaboin/Flixter./blob/main/PortraitWalkthrough.mp4" width=250><br>
 <img src="YOUR_GIF_URL_HERE" width=250><br>
 
 ### Notes
