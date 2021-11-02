@@ -22,15 +22,11 @@
 
 ### App Walkthough GIF
 Portrait Walkthough
-https://github.com/ajaboin/Flixter./blob/main/PortraitWalkthrough.mp4
+<img src="https://github.com/ajaboin/Flixter./blob/main/PortraitWalkthrough.mp4" width=250><br>
 
 
 Landscape Walkthough
-https://github.com/ajaboin/Flixter./blob/main/LandSWalkthrough.mp4
-
-
-<img src="https://github.com/ajaboin/Flixter./blob/main/PortraitWalkthrough.mp4" width=250><br>
-<img src="YOUR_GIF_URL_HERE" width=250><br>
+<img src="https://github.com/ajaboin/Flixter./blob/main/LandSWalkthrough.mp4" width=250><br>
 
 ### Notes
 
