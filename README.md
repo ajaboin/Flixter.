@@ -25,7 +25,8 @@
 <img src="https://github.com/ajaboin/Flixter./blob/main/PortraitWalkthrough.gif" width=250><br>
 
 
-<img src=https://github.com/ajaboin/Flixter./blob/main/LandSWalkthrough.gif" width=250><br>
+
+<img src="https://github.com/ajaboin/Flixter./blob/a0611146d055342cf33e6211fa7324f400b762f4/LandSWalkthrough.gif" width=250><br>
 
 ### Notes
 
