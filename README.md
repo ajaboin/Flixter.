@@ -26,7 +26,7 @@ Portrait Walkthough
 
 
 Landscape Walkthough
-<img src="https://github.com/ajaboin/Flixter./blob/main/LandSWalkthrough.mp4" width=250><br>
+<img src="https://imgur.com/mwOnUNQ" width=250><br>
 
 ### Notes
 
